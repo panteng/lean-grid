@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lean-Grid Example</title>
+    <link rel="stylesheet" href="../dist/lean-grid.css">
+    <style>
+        .grid-row {
+            height: 36px;
+            line-height: 36px;
+            margin-bottom: 20px;
+        }
+        .grid-row > div:nth-child(1) {
+            text-align: center;
+            color: #fff;
+            background-color: #2da46f;
+        }
+
+        .grid-row > div:nth-child(2) {
+            text-align: center;
+            color: #fff;
+            background-color: #19905b;
+        }
+
+        .grid-row > div:nth-child(3) {
+            text-align: center;
+            color: #fff;
+            background-color: #057c47;
+        }
+
+        .grid-row > div:nth-child(4) {
+            text-align: center;
+            color: #fff;
+            background-color: #006833;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="grid-row">
+            <div class="grid-col-24">.grid-col-24</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-12">.grid-col-12</div>
+            <div class="grid-col-12">.grid-col-12</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-8">.grid-col-8</div>
+            <div class="grid-col-8">.grid-col-8</div>
+            <div class="grid-col-8">.grid-col-8</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-6">.grid-col-6</div>
+            <div class="grid-col-6">.grid-col-6</div>
+            <div class="grid-col-6">.grid-col-6</div>
+            <div class="grid-col-6">.grid-col-6</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-17">.grid-col-17</div>
+            <div class="grid-col-7">.grid-col-7</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-4">.grid-col-4</div>
+            <div class="grid-col-5 grid-col-offset-1">.grid-col-5.grid-col-offset-1</div>
+            <div class="grid-col-8 grid-col-offset-6">.grid-col-8.grid-col-offset-6</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-4 grid-col-offset-2">.grid-col-4.grid-col-offset-2</div>
+            <div class="grid-col-6 grid-col-offset-4">.grid-col-6.grid-col-offset-4</div>
+        </div>
+        
+        <div class="grid-row">
+            <div class="grid-col-8 grid-col-offset-8">.grid-col-8.grid-col-offset-8</div>
+        </div>
+    </div>
+</body>
+</html>
