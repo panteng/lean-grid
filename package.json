@@ -1,0 +1,12 @@
+{
+  "name": "lean-grid",
+  "version": "1.0.0",
+  "description": "A dead simple css grid system for dashboard webapps. No bullshit.",
+  "main": "./dist/lean-grid.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panteng/lean-grid.git"
+  },
+  "author": "Chris Pan",
+  "license": "MIT"
+}

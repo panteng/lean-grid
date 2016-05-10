@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@mixin clearfix() {
+    &::after {
+        content:"";
+        display:table;
+        clear:both;
+    }
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-row {
+    @include clearfix();
+    display: flex;
+    flex-direction: row;
+}
+
+@for $i from 1 through 24 {
+    .grid-col-#{$i} {
+        flex-basis: percentage($i / 24);
+    }
+}
+
+@for $i from 1 through 23 {
+    .grid-col-offset-#{$i} {
+        margin-left: percentage($i / 24);
+    }
+}
