@@ -2,7 +2,7 @@
 
 A dead simple css grid system for dashboard webapps. No bullshit.
 
-![Demo](https://raw.githubusercontent.com/panteng/lean-grid/master/demo.jpg)
+![Demo](https://raw.githubusercontent.com/panteng/lean-grid/master/demo.png)
 
 IE 10+ supported. For IE 9 support, please use [Flexibility](https://github.com/10up/flexibility) with Lean-Grid.
 
