@@ -1,18 +1,19 @@
-# Lean-Grid
+# lean-grid
 
-A dead simple css grid system for dashboard webapps. No bullshit.
+A dead simple CSS grid layout system for dashboard websites.
 
 ![Demo](https://raw.githubusercontent.com/panteng/lean-grid/master/demo.png)
 
-IE 10+ supported. For IE 9 support, please use [Flexibility](https://github.com/10up/flexibility) with Lean-Grid.
+All major browsers and IE 10+ supported.
+If you want IE 9 supported, please use [Flexibility](https://github.com/10up/flexibility) together with lean-grid.
 
 ## Usage
 
-Install via NPM:
+Install via npm:
 
     npm install lean-grid
 
-If you know how to use Bootstrap Grid System, you know how to use Lean-Grid.
+If you know how to use Bootstrap Grid System, you know how to use lean-grid.
 
     <div class="grid">
         <div class="grid-row">
@@ -26,7 +27,7 @@ If you know how to use Bootstrap Grid System, you know how to use Lean-Grid.
         </div>
     </div>
     
-Unlike Bootstrap's 12 columns grid system, Lean-Grid divides a row into 24 columns, which is more flexiable for dashboard webapps.
+Unlike Bootstrap's 12 columns grid system, lean-grid divides a row into 24 columns, which is more flexiable for dashboard websites.
 
 ## License
 
